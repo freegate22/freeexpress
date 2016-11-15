@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+/* SNS LOGIN */
+.sns-wrap {border-left: 1px solid #ddd;border-right: 1px solid #ddd;padding:0 50px 20px;text-align:center}
+.sns-icon {display:inline-block;vertical-align:middle;text-decoration:none}
+.sns-icon:hover {text-decoration:none}
+.sns-icon .ico {display:inline-block;background:url('../oauth/img/sns_logo.png') no-repeat;vertical-align:middle}
+.sns-icon .txt {}
+.sns-icon .txt i {font-style:normal}
+
+/* SNS by COLOR */
+.sns-wrap-org .sns-naver {border-color:#18a400;background:#2db400}
+.sns-wrap-org .sns-naver .ico {background-position:-29px 0; }
+.sns-wrap-org .sns-gg {border-color:#ca2c19;background:#dd5443}
+.sns-wrap-org .sns-gg .ico {background-position:-58px 0}
+.sns-wrap-org .sns-fb {border-color:#2e5393;background:#3a5897}
+.sns-wrap-org .sns-fb .ico {background-position:0 0 }
+
+.sns-wrap-over .sns-icon {border-color:#dcdcdc}
+.sns-wrap-over .sns-naver{border-color:#18a400;background-color:#1dc800 }
+.sns-wrap-over .sns-naver .ico {background-position:-27px 50%;background-color:#1dc800 }
+.sns-wrap-over .sns-gg .ico {background-position:-56px 50%;background-color:#dc4b3a}
+.sns-wrap-over .sns-gg {border-color:#ca2c19;background-color:#dc4b3a}
+.sns-wrap-over .sns-fb .ico {background-position:2px 50% ;background-color:#3664a2}
+.sns-wrap-over .sns-fb {border-color:#2e5393;background-color:#3664a2}
+.sns-wrap-over .sns-kk .ico {background-position:-84px 50%;background-color:#ffeb00}
+.sns-wrap-over .sns-kk {border-color:#f2df00;background-color:#ffeb00}
+
+/* SNS by SIZE */
+.sns-wrap-32 .sns-icon {border-width:1px;border-style:solid;overflow:hidden;margin:0 2px;display:inline-block;margin-bottom:5px;width:90px}
+.sns-wrap-32 .sns-icon .txt {display:inline-block;font-size:0.95em;display:block;background:#fff;padding:5px 0}
+.sns-wrap-32 .sns-icon .ico {width:30px;height:30px}
+
+/* LOGIN LOADING */
+.social-login-loading{width:100%;height:auto;text-align:center}
+.social-login-loading p{display:inline-block;margin-top:10px;padding:40px 0 0;line-height:30px}
+
+
