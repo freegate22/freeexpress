@@ -19,7 +19,7 @@ $list=array (
     'wr_link2' => '',
     'wr_link1_hit' => '0',
     'wr_link2_hit' => '0',
-    'wr_hit' => '1',
+    'wr_hit' => '2',
     'wr_good' => '0',
     'wr_nogood' => '0',
     'mb_id' => 'admin',
@@ -47,17 +47,17 @@ $list=array (
     'subject' => '안녕하세요',
     'comment_cnt' => '',
     'datetime' => '2016-11-15',
-    'datetime2' => '12:33',
+    'datetime2' => '11-15',
     'last' => '2016-11-15',
-    'last2' => '12:33',
+    'last2' => '11-15',
     'name' => '<span class="sv_member">최고관리자</span>',
     'reply' => 0,
     'icon_reply' => '',
     'icon_link' => '',
-    'ca_name_href' => 'http://www.freeexpress.co.kr/bbs/board.php?bo_table=notice&amp;sca=',
-    'href' => 'http://www.freeexpress.co.kr/bbs/board.php?bo_table=notice&amp;wr_id=1',
-    'comment_href' => 'http://www.freeexpress.co.kr/bbs/board.php?bo_table=notice&amp;wr_id=1',
-    'icon_new' => '<img src="http://www.freeexpress.co.kr/theme/moon/skin/latest/basic/img/icon_new.gif" alt="새글">',
+    'ca_name_href' => 'http://freeexpress.kr/bbs/board.php?bo_table=notice&amp;sca=',
+    'href' => 'http://freeexpress.kr/bbs/board.php?bo_table=notice&amp;wr_id=1',
+    'comment_href' => 'http://freeexpress.kr/bbs/board.php?bo_table=notice&amp;wr_id=1',
+    'icon_new' => '<img src="http://freeexpress.kr/theme/moon/skin/latest/basic/img/icon_new.gif" alt="새글">',
     'icon_hot' => '',
     'icon_secret' => '',
     'link' => 
@@ -67,8 +67,8 @@ $list=array (
     ),
     'link_href' => 
     array (
-      1 => 'http://www.freeexpress.co.kr/bbs/link.php?bo_table=notice&amp;wr_id=1&amp;no=1',
-      2 => 'http://www.freeexpress.co.kr/bbs/link.php?bo_table=notice&amp;wr_id=1&amp;no=2',
+      1 => 'http://freeexpress.kr/bbs/link.php?bo_table=notice&amp;wr_id=1&amp;no=1',
+      2 => 'http://freeexpress.kr/bbs/link.php?bo_table=notice&amp;wr_id=1&amp;no=2',
     ),
     'link_hit' => 
     array (
