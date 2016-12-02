@@ -3,7 +3,7 @@ include_once('./_common.php');
 include_once(G5_EDITOR_LIB);
 
 if (!$is_member) {
-    alert_close("상품문의는 회원만 작성 가능합니다.");
+//    alert_close("상품문의는 회원만 작성 가능합니다.");
 }
 
 $w     = trim($_REQUEST['w']);

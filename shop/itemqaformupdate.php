@@ -2,7 +2,7 @@
 include_once('./_common.php');
 
 if (!$is_member) {
-    alert_close("상품문의는 회원만 작성이 가능합니다.");
+//    alert_close("상품문의는 회원만 작성이 가능합니다.");
 }
 
 $iq_id = trim($_REQUEST['iq_id']);
