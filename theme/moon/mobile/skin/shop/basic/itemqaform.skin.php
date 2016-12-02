@@ -22,13 +22,13 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_MSHOP_SKIN_URL.'/style.css">',
             <col>
         </colgroup>
         <tbody>
-        <tr>
+        <!--<tr>
             <th scope="row">옵션</th>
             <td>
                 <input type="checkbox" name="iq_secret" id="iq_secret" value="1" <?php echo $chk_secret; ?>>
                 <label for="iq_secret">비밀글</label>
             </td>
-        </tr>
+        </tr>-->
         <tr>
             <th scope="row"><label for="iq_email">이메일</label></th>
             <td><input type="email" name="iq_email" id="iq_email" value="<?php echo get_text($qa['iq_email']); ?>" class="frm_input" size="30"> 이메일을 입력하시면 답변 등록 시 답변이 이메일로 전송됩니다.</td>

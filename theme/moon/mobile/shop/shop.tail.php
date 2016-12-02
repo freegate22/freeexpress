@@ -130,7 +130,7 @@ $(document).mouseup(function (e){
         <h3>Board</h3>
         <ul>
             <li><a href="<?php echo G5_BBS_URL; ?>/faq.php">FAQ</a></li>
-            <li><a href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a></li>
+            <!--<li><a href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a></li>-->
             <li><a href="<?php echo G5_SHOP_URL; ?>/personalpay.php">개인결제</a></li>
             <li><a href="<?php echo G5_BBS_URL; ?>/board.php?bo_table=notice">공지</a></li>
             <li><a href="<?php echo G5_BBS_URL; ?>/board.php?bo_table=gallery">갤러리</a></li>
@@ -142,7 +142,7 @@ $(document).mouseup(function (e){
         <span><b>사업자 등록번호</b> <?php echo $default['de_admin_company_saupja_no']; ?></span><br>
         <span><b>대표</b> <?php echo $default['de_admin_company_owner']; ?></span>
         <span><b>전화</b> <?php echo $default['de_admin_company_tel']; ?></span>
-        <span><b>팩스</b> <?php echo $default['de_admin_company_fax']; ?></span><br>
+        <!--<span><b>팩스</b> <?php echo $default['de_admin_company_fax']; ?></span>--><br>
         <!-- <span><b>운영자</b> <?php echo $admin['mb_name']; ?></span><br> -->
         <span><b>통신판매업신고번호</b> <?php echo $default['de_admin_tongsin_no']; ?></span><br>
         <span><b>개인정보관리책임자</b> <?php echo $default['de_admin_info_name']; ?></span>
