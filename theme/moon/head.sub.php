@@ -45,6 +45,7 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-ico" />
 <title><?php echo $g5_head_title; ?></title>
 <?php
 $shop_css = '';
