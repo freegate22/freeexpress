@@ -95,6 +95,17 @@ if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
 
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "s_133bf1a4adc0";
+// 체크아웃 whitelist가 있을 경우
+wcs.checkoutWhitelist = ["freeexpress.co.kr", "www.freeexpress.co.kr"]; 
+// 유입 추적 함수 호출
+wcs.inflow("freeexpress.co.kr");
+wcs_do();
+</script>
+
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
