@@ -308,7 +308,15 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_THEME_JS_URL.'/owl.carousel.cs
             <a href="javascript:item_wish(document.fitem, '<?php echo $it['it_id']; ?>');" id="sit_btn_wish"><i class="fa fa-heart" aria-hidden="true"></i><span class="sound_only">위시리스트</span></a>
 
             <?php if ($naverpay_button_js) { ?>
-            <div class="itemform-naverpay"><?php echo $naverpay_request_js.$naverpay_button_js; ?></div>
+ <div class="itemform-naverpay">
+<?php echo $naverpay_request_js.$naverpay_button_js; ?>
+
+<!-- Talk Talk Banner Script start -->
+<script type="text/javascript" src="https://partner.talk.naver.com/banners/script"></script>
+<div class="talk_banner_div" data-id="8144" style="float: right; padding: 11px 20px 0px 0px; border-top: 2px solid #2b2f3a !important;"></div>
+<!-- Talk Talk Banner Script end -->
+
+</div>
             <?php } ?>
         </div>
 

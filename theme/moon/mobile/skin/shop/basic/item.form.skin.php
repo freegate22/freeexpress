@@ -285,7 +285,14 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/Ublue-jQueryTabs-1.2.js"></scri
             <?php } ?>
             <a href="javascript:item_wish(document.fitem, '<?php echo $it['it_id']; ?>');" id="sit_btn_wish">WISH</a>
             <?php if ($naverpay_button_js) { ?>
-            <div class="naverpay-item"><?php echo $naverpay_request_js.$naverpay_button_js; ?></div>
+            <div class="naverpay-item" style="background: #fff"><?php echo $naverpay_request_js.$naverpay_button_js; ?>
+
+<!-- Talk Talk Banner Script start -->
+<script type="text/javascript" src="https://partner.talk.naver.com/banners/script"></script>
+<div class="talk_banner_div" data-id="8145" style="padding: 10px 0; "></div>
+<!-- Talk Talk Banner Script end -->
+
+</div>
             <?php } ?>
         </div>
     </section>
