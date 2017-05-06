@@ -357,7 +357,7 @@
 #sit_pvi_nw li img {width:60px;height:60px}
 
 /* 상품 상세보기 - 간략정보 및 구매기능 */
-#sit_ov {position:relative;float:right;padding:50px 30px 15px;width:420px;min-height:650px;border-left:1px solid #eee;height:100%;}
+#sit_ov {position:relative;float:right;padding:50px 30px 15px;width:420px;min-height:480px;border-left:1px solid #eee;height:100%;}
 #sit_ov h3 {margin:0 0 10px}
 
 #sit_title {margin:10px 0 5px;font-size:1.3em;text-align:center;}

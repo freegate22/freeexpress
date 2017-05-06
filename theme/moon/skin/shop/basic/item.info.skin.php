@@ -172,8 +172,35 @@ $(document).ready(function() {
     <!-- } 교환/반품 끝 -->
     <?php } ?>
 
+
+<!-- adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 큰 세로 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:1050px"
+     data-ad-client="ca-pub-5483750112004826"
+     data-ad-slot="2346119997"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>    
+
+<!-- adsense -->
+
     </div>
 </div>
+
+<!-- adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 큰가로2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:250px"
+     data-ad-client="ca-pub-5483750112004826"
+     data-ad-slot="3822853197"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- adsense -->
+
 <script>
 $(window).on("load", function() {
     $("#sit_inf_explan").viewimageresize2();
