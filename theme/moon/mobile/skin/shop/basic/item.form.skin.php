@@ -398,7 +398,18 @@ $(document).ready(function() {
 }
 ?>
 
+<div align="center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 큰 사각형 - 모바일 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-5483750112004826"
+     data-ad-slot="9401931598"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+</div>
 
 <!-- 상품 정보 시작 { -->
 <section id="sit_inf">
@@ -451,6 +462,20 @@ $(document).ready(function() {
 
 </section>
 <!-- } 상품 정보 끝 -->
+
+<div align="center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 작은 사각형 - 모바일 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-5483750112004826"
+     data-ad-slot="8983129199"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
     <div id="sit_tab" class="tab-wr">
         <ul class="tabsTit">
             <li class="tabsTab tabsHover tab-first">사용후기</li>
